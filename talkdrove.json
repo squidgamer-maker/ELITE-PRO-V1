@@ -1,0 +1,85 @@
+{
+  "bot-name": "ELITE-PRO-V1",
+  "description": "A WhatsApp bot with rich features",
+  "logo": "http://elitepro-url-clouds.onrender.com/20250604_162827.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://eliteprotech.zone.id/session",
+  "owner-verification": "proelite455@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here.",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot command prefix (example: ., !, #)",
+      "value": ".",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner's phone number in international format (without +).",
+      "value": "2348109263390",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner's display name.",
+      "value": "ElitePro",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Bot display name.",
+      "value": "ELITE-PRO-V1",
+      "required": true
+    },
+    "AUTO_RECORDING": {
+      "description": "Enable auto-recording simulation (true or false).",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_TYPING": {
+      "description": "Enable auto-typing simulation (true or false).",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_RECORD_TYPE": {
+      "description": "Enable audio recording type simulation.",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_READ": {
+      "description": "Auto read all incoming messages.",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_BIO": {
+      "description": "Enable auto bio updates with time.",
+      "value": "true",
+      "required": true
+    },
+    "ANTI_92": {
+      "description": "Block +92 numbers automatically (true or false).",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_SW_VIEW": {
+      "description": "Auto-view WhatsApp statuses.",
+      "value": "true",
+      "required": true
+    },
+    "WELCOME": {
+      "description": "Enable group welcome message.",
+      "value": "true",
+      "required": true
+    },
+    "AUTO_REACT": {
+      "description": "Enable automatic reactions to messages.",
+      "value": "false",
+      "required": true
+    },
+    "AUTO_LIKE_STATUS": {
+      "description": "Automatically react to viewed statuses.",
+      "value": "true",
+      "required": true
+    }
+  }
+}
