@@ -43,12 +43,12 @@
     },
     "AUTO_RECORD_TYPE": {
       "description": "Enable audio recording type simulation.",
-      "value": "false",
+      "value": "true",
       "required": true
     },
     "AUTO_READ": {
       "description": "Auto read all incoming messages.",
-      "value": "false",
+      "value": "true",
       "required": true
     },
     "AUTO_BIO": {
@@ -58,7 +58,7 @@
     },
     "ANTI_92": {
       "description": "Block +92 numbers automatically (true or false).",
-      "value": "false",
+      "value": "true",
       "required": true
     },
     "AUTO_SW_VIEW": {
@@ -68,8 +68,8 @@
     },
     "WELCOME": {
       "description": "Enable group welcome message.",
-      "value": "true",
-      "required": true
+      "value": "false",
+      "required": false
     },
     "AUTO_REACT": {
       "description": "Enable automatic reactions to messages.",
